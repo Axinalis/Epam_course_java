@@ -7,20 +7,20 @@ import static java.lang.Math.*;
 public class Program {
 	public static void main(String[] args) {
 		int n = 29;
-		// 1 Задание
-		out.println(task1(n) + " - Первая цифра квадрата числа " + n);
-		// 5 задание
+		// 1 Р—Р°РґР°РЅРёРµ
+		out.println(task1(n) + " - РџРµСЂРІР°СЏ С†РёС„СЂР° РєРІР°РґСЂР°С‚Р° С‡РёСЃР»Р° " + n);
+		// 5 Р·Р°РґР°РЅРёРµ
 		out.println(task5(6));
-		// 6 задание
+		// 6 Р·Р°РґР°РЅРёРµ
 		task6(4500).out();
-		// 10 задание
+		// 10 Р·Р°РґР°РЅРёРµ
 		funTable table1;
 		table1 = task10(1, 10, n);
 		out.println();
 		for (int i = 0; i < n; i++) {
 			out.println("x=" + table1.xes[i] + "	y=" + table1.yes[i]);
 		}
-		//Остальные в проверке не нуждаются, там ошибиться невозможно
+		//РћСЃС‚Р°Р»СЊРЅС‹Рµ РІ РїСЂРѕРІРµСЂРєРµ РЅРµ РЅСѓР¶РґР°СЋС‚СЃСЏ, С‚Р°Рј РѕС€РёР±РёС‚СЊСЃСЏ РЅРµРІРѕР·РјРѕР¶РЅРѕ
 	}
 
 	public static int task1(int x) {
